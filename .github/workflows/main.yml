@@ -44,8 +44,8 @@ jobs:
           file: ./src/Dockerfile
           push: true
           tags: 
-            rsanmart/api-bootcamp-produto:latest |
-            rsanmart/api-bootcamp-produto:${{github.run_number}}
+            ${{secrets.DOCKERHUB_USER}}/api-bootcamp-produto:latest 
+            ${{secrets.DOCKERHUB_USER}}/api-bootcamp-produto:v${{github.run_number}}
 
   CD:
     # The type of runner that the job will run on
