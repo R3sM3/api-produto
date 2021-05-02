@@ -33,6 +33,6 @@ jobs:
           # Path to the Dockerfile
           file: ./src/Dockerfile
           push: true
-          tags:
+          tags: 
             rsanmart/api-bootcamp-produto:latest
             rsanmart/api-bootcamp-produto:${{github.run_number}}
