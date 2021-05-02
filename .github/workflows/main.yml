@@ -35,4 +35,4 @@ jobs:
           push: true
           tags: 
             rsanmart/api-bootcamp-produto:latest
-            rsanmart/api-bootcamp-produto:${{github.run_number}}
+            # rsanmart/api-bootcamp-produto:${{github.run_number}}
